@@ -1,0 +1,51 @@
+.container {
+  padding: 40px;
+}
+
+.bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+.title {
+  font-size: 14;
+}
+.pos {
+  margin-bottom: 12;
+}
+
+.career-header {
+  text-align: left;
+}
+
+.social-media-icons {
+  padding-top: 10px;
+}
+
+.ask-for-help-button {
+  text-transform: none !important;
+}
+
+.career-list { 
+  position: relative;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.profile-picture {
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.contact-form-container {
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 13%;
+  padding: 20px 0;
+  &:focus {
+    outline: none !important;
+  }
+}
