@@ -50,10 +50,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="Add any relevent experience, even if not related to your indutry"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="Add any relevent experience, even if not related to your indutry"
+          variant="outlined"
+          />
       </FormRow>
       <FormRow>
         <TextField
@@ -62,10 +61,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={2}
-          placeholder="We want to get to know you - Share your story"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="We want to get to know you - Share your story"
+          variant="outlined"
+          />
       </FormRow>
       <FormRow>
         <TextField
@@ -74,14 +72,13 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={2}
-          placeholder="Is unpaid overtime common? Can you work remotely?"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="Is unpaid overtime common? Can you work remotely?"
+          variant="outlined"
+           />
       </FormRow>
 
       <Divider variant="middle" style={{ "margin": "20px 0" }} />
-
+{/* 
 
       <FormRow>
         Key soft skills
@@ -101,7 +98,7 @@ export default function InsightsForm() {
       <FormRow>
         Related interests
       </FormRow>
-
+ */}
 
       <Divider variant="middle" style={{ "margin": "20px 0" }} />
 
@@ -112,10 +109,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="What would you want to know before you chose this career"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="What would you want to know before you chose this career"
+          variant="outlined"
+        />
       </FormRow>
 
       <FormRow>
@@ -125,10 +121,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="What do you struggle with?"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="What do you struggle with?"
+          variant="outlined"
+          />
       </FormRow>
 
       <FormRow>
@@ -138,10 +133,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="What do you enjoy about you job?"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="What do you enjoy about you job?"
+          variant="outlined"
+         />
       </FormRow>
       <FormRow>
         <TextField
@@ -150,10 +144,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="Have you ever considered changing careers?"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="Have you ever considered changing careers?"
+          variant="outlined"
+        />
       </FormRow>
       <FormRow>
         <TextField
@@ -162,10 +155,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="Share the places worth applying for and explain why!"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="Share the places worth applying for and explain why!"
+          variant="outlined"
+        />
       </FormRow>
       <FormRow>
         <TextField
@@ -174,10 +166,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="What do you struggle with"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="What do you struggle with"
+          variant="outlined"
+        />
       </FormRow>
       <FormRow>
         <TextField
@@ -186,10 +177,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="Describe a typical day for you. What sort of task will you be doing?"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="Describe a typical day for you. What sort of task will you be doing?"
+          variant="outlined"
+        />
       </FormRow>
       <FormRow>
         <TextField
@@ -198,10 +188,9 @@ export default function InsightsForm() {
           fullWidth
           multiline
           rows={4}
-          placeholder="Did we miss anything?"
-          InputLabelProps={{
-            shrink: true,
-          }} />
+          helperText="Did we miss anything?"
+          variant="outlined"
+        />
       </FormRow>
       <FormRow>
 

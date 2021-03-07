@@ -32,11 +32,11 @@ function App() {
     <header style={{"padding": "0 50px", "height": "auto", "position": "sticky", "top": "0", "background": "white"}}>
       <div style={{"line-height": "64px", "textAlign": "left"}}>
       <Typography variant="h5" component="h2" style={{"lineHeight": "64px"}}>
-        <span style={{"color": "#d87486"}}>HER</span>INSIGHTS
+        GROW<span style={{"color": "#F9B8B0"}}>HER</span>KNOWLEDGE
       </Typography>
       </div>
     </header>
-    <body style={{"backgroundColor": "white"}}>
+    <body style={{"backgroundColor": "#F6F6F6"}}>
     <Switch>
         <Route path="/career/:careerName/insights/new" component={InsightsForm} />
         <Route path="/career/:careerName" component={CareerPage} />
